@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "BasicAsyncClient/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MovingObjectServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BasicAsyncClient.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicAsyncClient.dll": {}
+        }
+      },
+      "BasicAsyncServer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BasicAsyncClient": "1.0.0",
+          "MovingObjectServer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BasicAsyncServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasicAsyncServer.dll": {}
+        }
+      },
+      "MovingObjectServer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MovingObjectServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MovingObjectServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BasicAsyncClient/1.0.0": {
+      "type": "project",
+      "path": "../BasicAsyncClient/BasicAsyncClient.csproj",
+      "msbuildProject": "../BasicAsyncClient/BasicAsyncClient.csproj"
+    },
+    "BasicAsyncServer/1.0.0": {
+      "type": "project",
+      "path": "../BasicAsyncServer/BasicAsyncServer.csproj",
+      "msbuildProject": "../BasicAsyncServer/BasicAsyncServer.csproj"
+    },
+    "MovingObjectServer/1.0.0": {
+      "type": "project",
+      "path": "../MovingObjectServer/MovingObjectServer.csproj",
+      "msbuildProject": "../MovingObjectServer/MovingObjectServer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "BasicAsyncClient >= 1.0.0",
+      "BasicAsyncServer >= 1.0.0",
+      "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj",
+      "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DYMA\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj",
+      "projectName": "Tugas2",
+      "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj",
+      "packagesPath": "C:\\Users\\DYMA\\.nuget\\packages\\",
+      "outputPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DYMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj": {
+              "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj"
+            },
+            "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj": {
+              "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj"
+            },
+            "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj": {
+              "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj"
+            },
+            "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj": {
+              "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}

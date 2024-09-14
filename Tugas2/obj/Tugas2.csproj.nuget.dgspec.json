@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj": {}
+  },
+  "projects": {
+    "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj",
+        "projectName": "BasicAsyncClient",
+        "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj",
+        "projectName": "BasicAsyncServer",
+        "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj"
+              },
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj",
+        "projectName": "MovingObjectServer",
+        "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectServer\\MovingObjectServer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj",
+        "projectName": "Tugas2",
+        "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj",
+        "packagesPath": "C:\\Users\\DYMA\\.nuget\\packages\\",
+        "outputPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DYMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncClient\\BasicAsyncClient.csproj"
+              },
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\BasicAsyncServer\\BasicAsyncServer.csproj"
+              },
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj"
+              },
+              "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj": {
+                "projectPath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

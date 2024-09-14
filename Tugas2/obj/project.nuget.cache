@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "7mVVhFA/wlM=",
+  "success": false,
+  "projectFilePath": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\Tugas2\\Tugas2.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObjectClient\\MovingObjectServer.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\DYMA\\Documents\\GitHub\\34_Adyatma_TugasJarkom2\\MovingObject\\MovingObject.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
